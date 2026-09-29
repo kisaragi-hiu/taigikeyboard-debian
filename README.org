@@ -13,6 +13,15 @@ I followed [[https://optimizedbyotto.com/post/debian-packaging-from-git/][this g
 
 To see the main packaging itself, check out =debian/latest=.
 
+** Building
+
+#+begin_src sh
+# passed to dpkg-buildpackage.
+# -S: --build=source, build just a source package
+# -sa: source always includes orig
+debuild -S -sa
+#+end_src
+
 ** Cloning
 
 This probably works?
