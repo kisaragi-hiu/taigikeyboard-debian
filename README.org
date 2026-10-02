@@ -1,3 +1,5 @@
+2026-10-03T01:27:26+0900: I'm moving to an approach that does not require committing all upstream code or forking from upstream instead, mainly due to space (this approach with this project ends up with .orig.tar.xz that's almost 900 MiB in size, which easily uses up a sizeable portion of Launchpad's quota) and also due to wanting to better automate things in the repository. Since it's a completely different repo and since I still want to be able to refer to what I did in this repository, I've decided to archive this instead of replacing this repository. The new repository is at [[https://github.com/kisaragi-hiu/taigikeyboard-packaging]].
+
 * TaigiKeyboard Debian / Ubuntu packaging
 I followed [[https://optimizedbyotto.com/post/debian-packaging-from-git/][this guide]].
 
